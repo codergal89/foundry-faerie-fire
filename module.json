@@ -1,0 +1,52 @@
+{
+        "name": "faerie-fire",
+        "title": "Faerie Fire",
+        "description": "A compendium pack of Faerie Fire content.",
+        "version": "1.0.0",
+        "author": "Sophia Pearson",
+        "minimumCoreVersion": "0.7.5",
+        "compatibleCoreVersion": "0.7.9",
+        "system": "dnd5e",
+        "url": "https://github.com/codergal89/foundry-faerie-fire",
+        "manifest": "https://raw.githubusercontent.com/codergal89/foundry-faerie-fire/master/module.json",
+        "download": "https://github.com/codergal89/foundry-faerie-fire/archive/refs/heads/master.zip",
+        "bugs": "https://github.com/codergal89/foundry-faerie-fire/issues",
+        "allowBugReporter": true,
+        "packs": [
+                {
+                        "name": "creatures",
+                        "label": "Creatures",
+                        "path": "./packs/creatures.db",
+                        "entity": "Actor"
+                },
+                {
+                        "name": "items",
+                        "label": "Items",
+                        "path": "./packs/items.db",
+                        "entity": "Item"
+                },
+                {
+                        "name": "journal-entries",
+                        "label": "Journal Entries",
+                        "path": "./packs/journal-entries.db",
+                        "entity": "JournalEntry"
+                },
+                {
+                        "name": "scenes",
+                        "label": "Scenes",
+                        "path": "./packs/scenes.db",
+                        "entity": "Scene"
+                }
+        ],
+        "dependencies": [
+                {
+                        "name": "compendium-folders",
+                        "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json"
+                },
+                {
+                        "name": "dae",
+                        "manifest": "https://gitlab.com/tposney/dae/raw/master/package/module.json"
+                }
+        ]
+}
+
