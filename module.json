@@ -40,13 +40,13 @@
         ],
         "dependencies": [
                 {
-                        "name": "compendium-folders",
-                        "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/master/module.json"
-                },
-                {
                         "name": "dae",
                         "manifest": "https://gitlab.com/tposney/dae/raw/master/package/module.json"
-                }
+                },
+		{
+			"name": "stairways",
+			"manifest": "https://gitlab.com/SWW13/foundryvtt-stairways/-/raw/development/module.json"
+		}
         ]
 }
 
