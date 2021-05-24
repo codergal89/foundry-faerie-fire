@@ -57,7 +57,7 @@
                 },
                 {
                         "name": "scenes",
-                        "label": "Scenes",
+                        "label": "Palace of Shade",
                         "path": "./packs/scenes.db",
                         "entity": "Scene"
                 }
