@@ -14,9 +14,33 @@
         "allowBugReporter": true,
         "packs": [
                 {
-                        "name": "creatures",
-                        "label": "Creatures",
-                        "path": "./packs/creatures.db",
+                        "name": "fey-court",
+                        "label": "Fey Court",
+                        "path": "./packs/court.db",
+                        "entity": "Actor"
+                },
+                {
+                        "name": "servants-to-the-court",
+                        "label": "Servants to the Court",
+                        "path": "./packs/servants.db",
+                        "entity": "Actor"
+                },
+                {
+                        "name": "primal-beasts",
+                        "label": "Primal Beasts",
+                        "path": "./packs/primal-beasts.db",
+                        "entity": "Actor"
+                },
+                {
+                        "name": "wanderers",
+                        "label": "Wanderers",
+                        "path": "./packs/wanderers.db",
+                        "entity": "Actor"
+                },
+                {
+                        "name": "wild",
+                        "label": "Wilds",
+                        "path": "./packs/wilds.db",
                         "entity": "Actor"
                 },
                 {
